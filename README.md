@@ -17,10 +17,10 @@ You can then parse a string with the `user-agent` function:
 (ns example
   (:require [clj-detector.core :as ua]))
 
-(user-agent "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; WOW64; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.21022; .NET CLR 3.5.30729; .NET CLR 3.0.30618; MDDC; .NET4.0C; InfoPath.2; BRI/2)")
+(ua/user-agent "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; WOW64; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.21022; .NET CLR 3.5.30729; .NET CLR 3.0.30618; MDDC; .NET4.0C; InfoPath.2; BRI/2)")
 ; #clj_detector.core.Agent{:name "IE", :producer "Microsoft Corporation.", :type :browser, :version "7.0", :device :pc}
 
-(user-agent "Mozilla/5.0 (iPad; CPU OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B554a Safari/9537.53")
+(ua/user-agent "Mozilla/5.0 (iPad; CPU OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B554a Safari/9537.53")
 ; #clj_detector.core.Agent{:name "Mobile Safari", :producer "Apple Inc.", :type :mobile-browser, :version "7.0", :device :tablet}
 ```
 
