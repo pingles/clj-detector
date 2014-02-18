@@ -7,7 +7,7 @@ Clojure interface to the UADetector `User-Agent` analyser.
 Add `clj-detector` to your project.clj. You'll also need to reference the `uadetector-resources` release you'd like to use. For example:
 
 ```clojure
-:dependencies [[clj-detector "0.0.1"]]
+:dependencies [[clj-detector "0.0.2"]]
 :profiles {:dev {:dependencies [[net.sf.uadetector/uadetector-resources "2013.10"]]}}
 ```
 
