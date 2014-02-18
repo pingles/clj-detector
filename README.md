@@ -7,8 +7,8 @@ Clojure interface to the UADetector `User-Agent` analyser.
 Add `clj-detector` to your project.clj. You'll also need to reference the `uadetector-resources` release you'd like to use. For example:
 
 ```clojure
-:dependencies [[clj-detector "0.0.2"]]
-:profiles {:dev {:dependencies [[net.sf.uadetector/uadetector-resources "2013.10"]]}}
+:dependencies [[clj-detector "0.0.2"]
+               [net.sf.uadetector/uadetector-resources "2013.10"]]
 ```
 
 You can then parse a string with the `user-agent` function:
