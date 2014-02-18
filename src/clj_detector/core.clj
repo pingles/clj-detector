@@ -49,5 +49,6 @@
       (UserAgentType/OTHER) :other
       (UserAgentType/ROBOT) :robot
       (UserAgentType/UNKNOWN) :unknown
+      (UserAgentType/USERAGENT_ANONYMIZER) :anonymizer
       (UserAgentType/VALIDATOR) :validator
       (UserAgentType/WAP_BROWSER) :wap-browser)))
